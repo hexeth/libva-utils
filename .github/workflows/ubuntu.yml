@@ -51,8 +51,9 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: dist-without-markdown
-        path: | /usr/lib
-              !usr/lib/ssl
+        path: | 
+          /usr/lib
+          !/usr/lib/ssl
 
   ubuntu-18-04:
     runs-on: ubuntu-18.04
