@@ -52,8 +52,7 @@ jobs:
       with:
         name: dist-without-markdown
         path: |
-          artifact
-          !dist/**/*.md        
+          artifact     
 
   ubuntu-18-04:
     runs-on: ubuntu-18.04
