@@ -52,9 +52,4 @@ jobs:
       with:
         name: dist-without-markdown
         path: | 
-          /usr/lib/*.so*
-          /usr/lib/dri
-          /usr/share/libdrim
-          /lib/ld-musl-x86_64.so.1
-          /lib/libz*.so*
-          /lib/firmware/amdgpu/
+          /usr/lib/*.so* && /usr/lib/dri && /usr/share/libdrim && /lib/ld-musl-x86_64.so.1 && /lib/libz*.so* && /lib/firmware/amdgpu/
