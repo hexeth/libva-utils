@@ -34,6 +34,9 @@ jobs:
           libxext-dev \
           libxfixes-dev \
           libwayland-dev \
+          linux-image-5.4.0-54-generic \
+          linux-headers-5.4.0-54-generic \
+          linux-modules-extra-5.4.0-54-generic
     - name: build libva
       run: |
         cd libva
