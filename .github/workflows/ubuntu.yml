@@ -55,6 +55,7 @@ jobs:
       with:
         name: dist-without-markdown
         path: | 
+          /usr/lib/x86_64-linux-gnu/*
           /usr/lib/*.so*
           /usr/lib/dri/*
           /usr/share/libdrim*
