@@ -34,8 +34,6 @@ jobs:
           libxext-dev \
           libxfixes-dev \
           libwayland-dev \
-          xf86-video-amdgpu \
-          linux-firmware-amdgpu
     - name: build libva
       run: |
         cd libva
@@ -59,3 +57,4 @@ jobs:
           /usr/share/libdrim
           /lib/ld-musl-x86_64.so.1
           /lib/libz*.so*
+          /lib/firmware/amdgpu/
